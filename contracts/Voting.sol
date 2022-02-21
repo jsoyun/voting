@@ -1,4 +1,5 @@
-pragma solidity >=0.7.0 <0.8.0;
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.4.21 <0.7.0;
 
 contract Voting {
     mapping(bytes32 => uint256) votesReceived;
